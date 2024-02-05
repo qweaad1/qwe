@@ -11,7 +11,7 @@ button.Text = "start" -- Текст на кнопке
 button.MouseButton1Click:Connect(function()
 if not isClicked then
  isClicked = true
-a = 1
+print("Кнопка была нажата")
 button.Visible = false
   loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
 wait(30)
