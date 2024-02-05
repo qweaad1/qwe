@@ -1,0 +1,8 @@
+repeat
+  wait(5)
+print("wait")
+print(game:HttpGet("https://gist.githubusercontent.com/qweaad1/c2846a18b565c118c9e15d469a12fc38/raw/d7924815b8d23a77cba43e0dfb1ad88b1d659827/dynamic"))
+until game:HttpGet("https://gist.githubusercontent.com/qweaad1/c2846a18b565c118c9e15d469a12fc38/raw/d7924815b8d23a77cba43e0dfb1ad88b1d659827/dynamic")== "go"
+loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
+wait(30)
+loadstring(game:HttpGet("https://gist.githubusercontent.com/qweaad1/c2846a18b565c118c9e15d469a12fc38/raw/d7924815b8d23a77cba43e0dfb1ad88b1d659827/level1"))()
