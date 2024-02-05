@@ -10,13 +10,14 @@ button.Position = UDim2.new(0.5, 400, 0.5, -300) -- Позиция кнопки
 button.Text = "start" -- Текст на кнопке
 button.MouseButton1Click:Connect(function()
 if not isClicked then
- isClicked = true
+ 
 print("Кнопка была нажата")
 
   loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
 wait(30)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/qweaad1/qwe/main/Level1"))()
  button.Visible = false
+isClicked = true
 end
 end)
 
