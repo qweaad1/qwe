@@ -1,4 +1,4 @@
-local a = 0
+local isClicked = false
 -- Создаем экранное GUI
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui
@@ -9,7 +9,8 @@ button.Size = UDim2.new(0, 50, 0, 50) -- Размер кнопки
 button.Position = UDim2.new(0.5, 400, 0.5, -300) -- Позиция кнопки
 button.Text = "start" -- Текст на кнопке
 button.MouseButton1Click:Connect(function()
-if not a > 0 then
+if not isClicked then
+ isClicked = true
 a = 1
 button.Visible = false
   loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
