@@ -1,3 +1,4 @@
+if false then
 repeat
   wait(5)
 print("wait")
@@ -6,3 +7,4 @@ until game:HttpGet("https://raw.githubusercontent.com/qweaad1/qwe/main/Dynamic")
 loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
 wait(30)
 loadstring(game:HttpGet("https://raw.githubusercontent.com/qweaad1/qwe/main/Level1"))()
+end
