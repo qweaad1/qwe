@@ -15,7 +15,7 @@ print("Кнопка была нажата")
 
   loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
 wait(30)
---loadstring(game:HttpGet("https://raw.githubusercontent.com/qweaad1/qwe/main/Level1"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qweaad1/qwe/main/NEWlevel1"))()
  button.Visible = false
 isClicked = true
 end
