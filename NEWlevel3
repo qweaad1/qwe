@@ -480,6 +480,12 @@ for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_d
 	
 	
     end 
+aa=0;
+for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.gifts) do
+  if  v.kind == "lunar_2024_special_lunar_new_year_gift_box"  then
+aa=aa+1
+    end
+end
     for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.food) do
     if  v.kind == "pet_age_potion" then
         a=a+1
