@@ -399,7 +399,7 @@ for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_d
   count111 = count111+1
   
     local key = tostring(v["id"]) .. " - " .. tostring(v["properties"]["age"]) .. " years old"
- 
+ print(key)
     
     if not table.find(List, Key) and v.kind ~= "practice_dog" then
         PetsShow[key] = v
