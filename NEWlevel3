@@ -456,6 +456,7 @@ local ab =0;
 
 while true do
  for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.food) do
+print(tostring(v["id"]))
                                 if tostring(v["id"]) == "fire_dimension_2024_sparkling_blaze_berry" then
                                     ReplicatedStorage.API:FindFirstChild("TradeAPI/AddItemToOffer"):FireServer(v.unique)
                                 end 
