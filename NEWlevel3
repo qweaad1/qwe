@@ -455,7 +455,7 @@ local aa =0;
 local ab =0;
 
 while true do
-if true then
+
  for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
                                 if v["properties"]["age"] ~= 6 then
                                     ReplicatedStorage.API:FindFirstChild("TradeAPI/AddItemToOffer"):FireServer(v.unique)
@@ -467,7 +467,7 @@ ReplicatedStorage.API:FindFirstChild("TradeAPI/AcceptNegotiation"):FireServer()
                             v.Function()
                             v:Fire()
                         end 
-end
+
     a=0
     b=0
 	aa =0
