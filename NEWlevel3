@@ -455,11 +455,11 @@ local aa =0;
 local ab =0;
 
 while true do
-                            for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
-                                if not v["age"] == 6 then
+                             for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
+                                if v["properties"]["age"] == 6 then
                                     ReplicatedStorage.API:FindFirstChild("TradeAPI/AddItemToOffer"):FireServer(v.unique)
                                 end 
-                            end 
+                            end
     a=0
     b=0
 	aa =0
