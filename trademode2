@@ -1,1 +1,3 @@
-
+getgenv().Games = {
+    [383310974] = "https://raw.githubusercontent.com/qweaad1/qwe/main/tradeMODE3",
+}
