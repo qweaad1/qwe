@@ -12,10 +12,11 @@ button.MouseButton1Click:Connect(function()
 if not isClicked then
  
 print("Кнопка была нажата")
-
+if false then
  loadstring(game:HttpGet('https://gitfront.io/r/ReQiuYTPL/wFUydaK74uGx/hub/raw/ReQiuYTPLHub.lua'))()
 wait(30)
-loadstring(game:HttpGet("https://raw.githubusercontent.com/qweaad1/qwe/main/NEWlevel1"))()
+end
+loadstring(game:HttpGet("https://raw.githubusercontent.com/qweaad1/qwe/main/trademode1"))()
  button.Visible = false
 isClicked = true
 end
