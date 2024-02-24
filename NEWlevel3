@@ -425,7 +425,7 @@ label1.FontSize = Enum.FontSize.Size96 -- Увеличиваем размер ш
 
 for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
   
-     if  v.kind == "desert_2024_egg" then
+     if  v.kind == "fire_dimension_2024_Volcanic_Rhino" then
         b=b+1
         
     end
