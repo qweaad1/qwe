@@ -436,7 +436,11 @@ label1.Text = (tostring(b))
 -- Создаем экранное GUI
 local gui = Instance.new("ScreenGui")
 gui.Parent = game.Players.LocalPlayer.PlayerGui
-
+for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.food) do
+    if  v.kind == "pet_age_potion" then
+        a=a+1
+    end
+        end
 -- Создаем текстовую метку
 local label = Instance.new("TextLabel")
 label.Parent = gui
