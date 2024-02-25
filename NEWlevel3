@@ -467,7 +467,7 @@ print(tostring(v["id"]))
     end
 for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
   
-     if  v.kind == "desert_2024_egg" then
+     if  v.kind == "fire_dimension_2024_volcanic_rhino" then
         b=b+1 
     end
 	
