@@ -395,9 +395,9 @@ local Ps = {}
 local a = 0
 local b = 0
 local count111 = 0
---for i=1, 20 do
--- ReplicatedStorage.API["ShopAPI/BuyItem"]:InvokeServer("gifts","easter_2024_eggy_box",{})
---end
+for i=1, 20 do
+ ReplicatedStorage.API["ShopAPI/BuyItem"]:InvokeServer("gifts","easter_2024_eggy_box",{})
+end
 for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
   count111 = count111+1
   
