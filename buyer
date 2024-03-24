@@ -1,3 +1,3 @@
 for i=1, 20 do
--- ReplicatedStorage.API["ShopAPI/BuyItem"]:InvokeServer("gifts","easter_2024_eggy_box",{})
+ ReplicatedStorage.API["ShopAPI/BuyItem"]:InvokeServer("gifts","easter_2024_eggy_box",{})
 end
