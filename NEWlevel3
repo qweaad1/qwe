@@ -426,13 +426,17 @@ label1.FontSize = Enum.FontSize.Size96 -- Увеличиваем размер ш
 
 for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
   
-     if  v.kind == "easter_2024_eggy_box" then
+     if  v.kind == "garden_2024_egg" then
         b=b+1
         
     end
     end
 label1.Text = (tostring(b))
+if b<3 then
 
+ReplicatedStorage.API["ShopAPI/BuyItem"]:InvokeServer("pets","garden_2024_egg",{})
+
+end
 
 -- Создаем экранное GUI
 local gui = Instance.new("ScreenGui")
@@ -472,7 +476,7 @@ print(tostring(v["id"]))
     end
 for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
   
-     if  v.kind == "fire_dimension_2024_volcanic_rhino" then
+     if  v.kind == "garden_2024_egg" then
         b=b+1 
     end
 	
