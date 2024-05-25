@@ -424,7 +424,7 @@ label1.BackgroundColor3 = Color3.new(1, 1, 1) -- Цвет фона метки
 label1.TextColor3 = Color3.new(0, 0, 0) -- Цвет текста метки
 label1.FontSize = Enum.FontSize.Size96 -- Увеличиваем размер шрифта в 4 раза
 
-for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.gifts) do
+for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
   
      if  v.kind == "easter_2024_eggy_box" then
         b=b+1
@@ -467,7 +467,7 @@ while true do
 	aa =0
 	ab =0
     -- code
-for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.gifts) do
+for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
 print(tostring(v["id"]))
     end
 for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.pets) do
