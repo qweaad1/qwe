@@ -484,7 +484,7 @@ for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_d
         aa=aa+1
         
     end
-	 if  v.kind == "desert_2024_cactus_friend"  then
+	 if  v.kind == "garden_2024_mushroom_friend"  then
         ab=ab+1
         
     end
