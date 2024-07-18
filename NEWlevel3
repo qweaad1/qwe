@@ -495,11 +495,7 @@ for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_d
     end
     end
 label1.Text = (tostring(b))
-if b<3 then
 
-ReplicatedStorage.API["ShopAPI/BuyItem"]:InvokeServer("pets","garden_2024_egg",{})
-
-end
 for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_data()[Player.Name].inventory.gifts) do
   if  v.kind == "lunar_2024_special_lunar_new_year_gift_box"  then
 aa=aa+1
