@@ -432,11 +432,7 @@ for i, v in pairs(require(ReplicatedStorage.ClientModules.Core.ClientData).get_d
     end
     end
 label1.Text = (tostring(b))
-if b<3 then
 
-ReplicatedStorage.API["ShopAPI/BuyItem"]:InvokeServer("pets","garden_2024_egg",{})
-
-end
 
 -- Создаем экранное GUI
 local gui = Instance.new("ScreenGui")
